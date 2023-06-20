@@ -1,5 +1,4 @@
 window.addEventListener('load', () => {
-    if(window.location.href === 'http://localhost:3000/')
     {
         let anim = document.querySelector('.anim');
         
