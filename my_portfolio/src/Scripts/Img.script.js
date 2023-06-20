@@ -1,5 +1,4 @@
 window.addEventListener('load', () => {
-    {
         let anim = document.querySelector('.anim');
         
         let height = anim.clientHeight 
@@ -31,5 +30,4 @@ window.addEventListener('load', () => {
         anim.addEventListener('mouseup' ,() => {
             anim.style.transform = 'perspective(500px) scale(1) rotateX(0) rotateY(0)'
         })
-    }
 })
