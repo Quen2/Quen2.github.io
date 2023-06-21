@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import pp from "../Assets/pp.jpg"
 import '../Scripts/Img.script'
 import Navbar from "../Components/Widget/Navbar";
+import Catchphrase from "../Components/Index/Catchphrase";
+
 
 export default function Index() 
 {
@@ -35,7 +37,7 @@ export default function Index()
         :
         <div className="flex flex-col background fade w-screen h-screen bg-stone-600">
             <Navbar />
-            <p className="text-3xl text-white text-center font-PlayFair">Ouais c'est <span className="subtitle">Greg</span></p>
+            <Catchphrase />
         </div>
     )    
 }

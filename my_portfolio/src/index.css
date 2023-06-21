@@ -73,6 +73,18 @@ code {
   } 
 }
 
+@keyframes catch 
+{
+  0%
+  {
+    transform: translateY(100vh);
+  } 
+  100%
+  {
+    transform: translateY(25vh);
+  } 
+}
+
 .title 
 {
   text-shadow: 6px 6px #515151,
@@ -104,6 +116,11 @@ code {
 {
   animation: slide 2s infinite linear;
   
+}
+
+.catch 
+{
+  animation: catch 1s ease-in-out forwards;
 }
 
 .pop
