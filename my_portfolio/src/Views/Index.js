@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import pp from "../Assets/pp.jpg"
-import kev from "../Assets/kev.jpg"
 import '../Scripts/Img.script'
 import Navbar from "../Components/Widget/Navbar";
 
