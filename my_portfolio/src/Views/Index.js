@@ -21,12 +21,12 @@ export default function Index()
         <div className="w-screen h-screen flex bg-stone-800">
             <div className="m-auto self-center w-1/2 h-1/2 bg-stone-600 rounded-3xl border border-stone-900">
                 <h1 className="text-center mt-5 text-white text-3xl font-Indie">Bonjour</h1>
-                <img src={pp} className="w-32 h-32 xl:w-48 xl:h-48 rounded-full mx-auto my-5 object-cover anim imgMaker cursor-pointer" alt="profilePicture"></img>
+                <img src={pp} className="w-20 h-20 xl:w-48 xl:h-48 rounded-full mx-auto my-5 object-cover anim imgMaker cursor-pointer" alt="profilePicture"></img>
                 <p className="text-2xl xl:text-xl text-white text-center font-Indie">
                     <span className="subtitle">Q</span>uentin Guidez <br></br>
-                    <span className="mt-4"> Étudiant à Epitech, fan de design, je souhaiterais m'orienter développement Front-End</span>
+                    <span className="mt-6"> Étudiant à Epitech, fan de design, je souhaiterais m'orienter développement Front-End</span>
                 </p>
-                <button className="w-3/5 xl:w-2/5 mt-10 mx-auto block rounded-3xl text-center  bg-stone-400 text-white 
+                <button className="w-3/5 xl:w-2/5 mt-2 xl:mt-10 mx-auto block rounded-3xl text-center  bg-stone-400 text-white 
                 font-Indie" onClick={handleClick}>Me découvrir</button>
             </div>
         </div>
