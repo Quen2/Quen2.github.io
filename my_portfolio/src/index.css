@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+
+
 @keyframes zoom
 {
   0% 
@@ -24,6 +29,19 @@ code {
   }
 }
 
+@keyframes fade
+{
+  0% 
+  {
+    opacity: 0;
+  }
+  100%
+  {
+    opacity: 1;
+  }
+}
+
+
 .title 
 {
   text-shadow: 6px 6px #515151,
@@ -34,14 +52,30 @@ code {
                1px 1px #ececec;
 }
 
-.zoom 
+.subtitle 
 {
-  animation: zoom 2s ease-in-out;
+  font-size: 42px;
+  text-shadow: 6px 6px #515151,
+               5px 5px #616161,
+               4px 4px #929292,
+               3px 3px #a7a6a6,
+               2px 2px #cecece,
+               1px 1px #ececec
 }
 
 .imgMaker 
 {
   box-shadow : 7px 7px 0 0 #232323;
+}
+
+.fade 
+{
+  animation : fade 1s ease-in-out;
+}
+
+.zoom 
+{
+  animation: zoom 2s ease-in-out;
 }
 
 @tailwind base;
