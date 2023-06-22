@@ -20,7 +20,7 @@ export default function Navbar ()
     }
 
     return (
-        <div className="bg-stone-400 text-white flex justify-around text-lg xl:text-2xl font-Indie sticky">
+        <div className="bg-stone-400 text-white flex justify-around text-lg xl:text-2xl font-Indie absolute w-full">
             <div className="hidden md:block border p-2 rounded-3xl overflow-hidden navBtn">
                 <a href="#aboutMe">
                     <p className="w-full h-full" content="A propos de moi">
@@ -48,9 +48,9 @@ export default function Navbar ()
                 </p>
             {state 
             ?
-                // <div className="text-white bg-transparent">
-                    <MobileNavbar setState={setState} />
-                // </div>
+                <div className="text-white bg-stone-600">
+                    <MobileNavbar />
+                </div>
             :
                 <div></div>
             }

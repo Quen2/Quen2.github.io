@@ -4,7 +4,6 @@ import '../Scripts/Img.script'
 import Navbar from "../Components/Widget/Navbar";
 import Catchphrase from "../Components/Index/Catchphrase";
 
-
 export default function Index() 
 {
     const [state, setState] = useState(null)
@@ -14,7 +13,7 @@ export default function Index()
         e.target.parentNode.classList.add('zoom');
         setTimeout(() => {
             setState('home')
-        }, 2000);
+        }, 1500);
     }
 
     return (
@@ -25,7 +24,7 @@ export default function Index()
                 <h1 className="text-center mt-5 text-white text-3xl font-Indie mb-2">Bonjour</h1>
                 <img src={pp} className="w-20 h-20 xl:w-36 xl:h-36 rounded-full mx-auto xl:my-5 object-cover anim imgMaker cursor-pointer" alt="profilePicture"></img>
                 <p className="text-lg xl:text-3xl text-white text-center font-Indie"> 
-                    <span className="subtitle">Q</span>uentin Guidez
+                    <span className="subtitle text-[42px]">Q</span>uentin Guidez
                 </p>
                 <p className="text-lg xl:text-3xl text-white text-center font-Indie mt-2">
                     <span className="mt-10"> Étudiant à Epitech, fan de design, je souhaiterais m'orienter développement Front-End</span>
@@ -35,9 +34,11 @@ export default function Index()
             </div>
         </div>
         :
-        <div className="flex flex-col background fade w-screen h-screen bg-stone-600">
-            <Navbar />
-            <Catchphrase />
+        <div className="bg-stone-600 h-screen">
+            <div className="flex flex-col fade relative">
+                <Navbar />
+                <Catchphrase />
+            </div>
         </div>
     )    
 }
