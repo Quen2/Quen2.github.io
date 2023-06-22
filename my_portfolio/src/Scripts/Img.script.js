@@ -1,5 +1,4 @@
 /*jslint browser:true */
-
 window.addEventListener("load", function ()
 {
     let anim = document.querySelector(".anim");

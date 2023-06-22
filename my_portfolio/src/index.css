@@ -83,64 +83,104 @@ code {
   100%
   {
     opacity: 1;
-    margin-top: 30vh;
+    margin-top: 20vh;
   } 
 }
 
 .title 
 {
+
   text-shadow: 6px 6px #515151,
                5px 5px #616161,
                4px 4px #929292,
                3px 3px #a7a6a6,
                2px 2px #cecece,
                1px 1px #ececec;
+
 }
 
 .subtitle 
 {
+
   text-shadow: 6px 6px #515151,
                5px 5px #616161,
                4px 4px #929292,
                3px 3px #a7a6a6,
                2px 2px #cecece,
                1px 1px #ececec
+
 }
 
 .imgMaker 
 {
+  
   box-shadow : 7px 7px 0 0 #232323;
+
+}
+
+.bgCar
+{
+
+  background-image: url(./Assets/bgCar3.jpg);
+  background-size: cover;
+
+}
+
+.filt
+{
+
+  filter: invert(74%) sepia(3%) saturate(505%) hue-rotate(341deg) brightness(88%) contrast(89%);
+
+}
+
+.transi svg
+{
+
+  position: absolute;
+  bottom: 0;
+
 }
 
 .navBtn:hover a p 
 {
+
   animation: slide 2s infinite linear;
   
 }
 
 .opa 
 {
-  animation: fade 6s ease-in-out;
+
+  animation: fade 5s linear;
+
 }
 
 .catch 
 {
+
   animation: catch 1s ease-in-out forwards;
+
 }
 
 .pop
 {
+
   animation: pop 1s ease-in-out;
+
 }
 
 .fade 
 {
+
   animation : fade 1s ease-in-out;
+
 }
 
 .zoom 
 {
+
   animation: zoom 2s ease-in-out;
+
 }
 
 @tailwind base;

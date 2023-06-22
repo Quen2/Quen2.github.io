@@ -3,6 +3,8 @@ import pp from "../Assets/pp.jpg"
 import '../Scripts/Img.script'
 import Navbar from "../Components/Widget/Navbar";
 import Catchphrase from "../Components/Index/Catchphrase";
+import MainContent from "../Components/AboutMe/Maincontent";
+import TransitionBetweenSection from "../Components/Widget/TransitionBetweenSection";
 
 export default function Index() 
 {
@@ -38,6 +40,8 @@ export default function Index()
             <div className="flex flex-col fade relative">
                 <Navbar />
                 <Catchphrase />
+                <TransitionBetweenSection />
+                <MainContent />
             </div>
         </div>
     )    
