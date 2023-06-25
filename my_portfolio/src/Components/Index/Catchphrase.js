@@ -21,9 +21,9 @@ export default function Catchphrase ()
                 </p>
                 <p className="w-fit m-auto text-base lg:text-xl font-PlayFair mt-5 text-center mb-2">Mes réseaux</p>
                 <div className="flex justify-center gap-8">
-                    <img src={linkedin} className="w-10 h-10 hover:scale-125 cursor-pointer"></img>
-                    <img src={github} className="w-10 h-10 hover:scale-125 cursor-pointer"></img>
-                    <img src={gmail} className="w-10 h-10 hover:scale-125 cursor-pointer"></img>
+                    <img src={linkedin} className="w-10 h-10 hover:scale-125 cursor-pointer" alt="logo-linkedin"></img>
+                    <img src={github} className="w-10 h-10 hover:scale-125 cursor-pointer" alt="logo-github"></img>
+                    <img src={gmail} className="w-10 h-10 hover:scale-125 cursor-pointer" alt="logo-gmail"></img>
                 </div>
             </div>
             <div className="bg-stone-600">
