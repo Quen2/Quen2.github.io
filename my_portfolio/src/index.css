@@ -133,12 +133,14 @@ code {
 
 }
 
-/* .aboutImg
-{
+.equal-height-carousel {
+  display: flex;
+  flex-direction: column;
+}
 
-  filter: invert(32%) sepia(1%) saturate(1972%) hue-rotate(354deg) brightness(98%) contrast(94%);
-
-} */
+.equal-height-carousel .slide {
+  flex: 1;
+}
 
 .transi svg
 {
