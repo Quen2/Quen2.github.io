@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-scroll"
+
 
 export default function MobileNavbar ()
 {
@@ -6,25 +8,25 @@ export default function MobileNavbar ()
     return (
         <div className="flex flex-col pop">
             <div className="w-screen text-center border overflow-hidden navBtn">
-                <a href="#aboutMe">
+                <Link to="aboutMe" smooth={true} duration={500}>
                     <p className="w-full h-full" content="A propos de moi">
                         A propos de Moi 
                     </p>
-                </a>
+                </Link>
             </div>
             <div className="border text-center overflow-hidden navBtn">
-                <a href="#projects">
+                <Link to="projects" smooth={true} duration={500}>
                     <p className="w-full h-full" content="Mes Projets">
                         Mes Projets 
                     </p>
-                </a>
+                </Link>
             </div>
             <div className="border text-center overflow-hidden navBtn">
-                <a href="#contact">
+                <Link to="contact" smooth={true} duration={500}>
                     <p className="w-full h-full" content="Me Contacter">
                         Me Contacter 
                     </p>
-                </a>
+                </Link>
             </div>
         </div>
     )   

@@ -1,9 +1,10 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 export default function Hobbies ()
 {
     return (
-        <div className="bg-stone-400">
+        <Element name="contact" className="bg-stone-400">
             <h2 id="aboutMe" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">Mes activités</h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly gap-8">
                 <div className="border  rounded-3xl flex-col p-4 card mx-4 lg:w-1/4"> 
@@ -28,6 +29,6 @@ export default function Hobbies ()
                     <p className="text-stone-200 font-PlayFair text-center mt-2">Ainsi, je situerais mon niveau vers B2</p>
                 </div> 
             </div>
-        </div>
+        </Element>
     )
 }

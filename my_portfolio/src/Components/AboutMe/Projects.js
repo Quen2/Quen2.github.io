@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Element } from "react-scroll";
 import Meetic from "../Projects/Meetic";
 import Twitter from "../Projects/Twitter";
 import Spotify from "../Projects/Spotify";
@@ -10,7 +11,7 @@ export default function Projects ()
     const [state, setState] = useState('')
 
     return (
-        <div className="bg-stone-600 pt-10">
+        <Element name="projects" className="bg-stone-600 pt-10">
             <h2 id="projects" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">Mes projets</h2>
             <div className="bg-stone-600 flex flex-col gap-8 p-10">
                 <div className="flex flex-col lg:flex-row gap-4">
@@ -78,6 +79,6 @@ export default function Projects ()
                     </div>
                 </div>
             </div>
-        </div>
+        </Element>
     )
 }

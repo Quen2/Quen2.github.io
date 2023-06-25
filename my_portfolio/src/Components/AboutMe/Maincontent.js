@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+import { Element } from "react-scroll";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../../Scripts/Scroll.script"
 import webAc from "../../Assets/webAca.png"
@@ -28,7 +29,7 @@ export default function MainContent ()
 
 
     return (
-        <div className="pt-10 bg-stone-400">
+        <Element name="aboutMe" className="pt-10 bg-stone-400">
             <h2 id="aboutMe" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">A propos de moi</h2>
             
 
@@ -251,6 +252,6 @@ export default function MainContent ()
                 
             </div>
         
-        </div>
+        </Element>
     )
 }

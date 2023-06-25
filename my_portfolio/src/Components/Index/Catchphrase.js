@@ -15,7 +15,7 @@ export default function Catchphrase ()
                 <p className="w-fit m-auto text-xl lg:text-2xl font-PlayFair mt-2 text-center">Sur le portfolio de Quentin Guidez</p>
                 <p className="w-fit m-auto text-base lg:text-xl font-PlayFair mt-2 text-center">Etudiant à Epitech, je suis à la recherche d'une alternance dans le développement web</p>
                 <p className="w-fit m-auto text-xl lg:text-2xl font-PlayFair mt-4 px-4 py-2 text-white rounded-3xl bg-stone-600">
-                    <a href={Cv} download={true} onClick={() => window.open(Cv, '_blank')}>
+                    <a href={Cv} download onClick={() => window.open(Cv, '_blank')}>
                         Télécharger mon Cv
                     </a>
                 </p>

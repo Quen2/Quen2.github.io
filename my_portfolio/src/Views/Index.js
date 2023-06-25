@@ -7,6 +7,7 @@ import MainContent from "../Components/AboutMe/Maincontent";
 import Projects from "../Components/AboutMe/Projects";
 import Hobbies from "../Components/AboutMe/Hobbies";
 import Contact from "../Components/AboutMe/Contact";
+import Footer from "../Components/AboutMe/Footer";
 
 export default function Index() 
 {
@@ -58,6 +59,10 @@ export default function Index()
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e7e5e4" fillOpacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,181.3C1120,160,1280,160,1360,160L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
                 </div>
                 <Contact />
+                <div className="bg-stone-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fillOpacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,181.3C1120,160,1280,160,1360,160L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+                </div>
+                <Footer />
             </div>
         </div>
     )    
