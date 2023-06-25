@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function CarouselHome ()
 {
     return (
-        <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} stopOnHover={true} transitionTime={500} interval={2000} swipeable={true} emulateTouch={true}>
+        <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} stopOnHover={true} transitionTime={500} interval={2000} swipeable={true} emulateTouch={true} axis="vertical">
             <div className="text-center w-3/4 lg:w-1/2 h-[45vh] mx-auto bg-stone-400 border relative rounded-xl opa">
                 <div className="border rounded-xl h-full bgCar">
                     <img src={logoMe} alt="carouselImg" className="w-full h-full filt"></img>
