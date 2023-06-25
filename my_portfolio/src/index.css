@@ -133,6 +133,13 @@ code {
 
 }
 
+/* .aboutImg
+{
+
+  filter: invert(32%) sepia(1%) saturate(1972%) hue-rotate(354deg) brightness(98%) contrast(94%);
+
+} */
+
 .transi svg
 {
 
@@ -141,17 +148,17 @@ code {
 
 }
 
-.navBtn:hover a p 
-{
+.navBtn:hover a p{
 
   animation: slide 2s infinite linear;
+  cursor: pointer;
   
 }
 
 .opa 
 {
 
-  animation: fade 5s linear;
+  animation: fade 3s linear;
 
 }
 
