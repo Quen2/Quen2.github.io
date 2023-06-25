@@ -32,7 +32,7 @@ export default function Index()
                     <span className="subtitle text-[42px]">Q</span>uentin Guidez
                 </p>
                 <p className="text-lg xl:text-3xl text-white text-center font-Indie mt-2">
-                    <span className="mt-10"> Étudiant à Epitech, fan de design, je souhaiterais m'orienter développement Front-End</span>
+                    <span className="mt-10"> Étudiant à Epitech, fan de design, je souhaiterais m'orienter dans le développement Front-End</span>
                 </p>
                 <button className="w-3/5 xl:w-2/5 mt-2 mx-auto block rounded-3xl text-center  bg-stone-400 text-white 
                 font-Indie" onClick={handleClick}>Me découvrir</button>
