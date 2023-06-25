@@ -14,7 +14,7 @@ export default function Projects ()
             <h2 id="projects" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">Mes projets</h2>
             <div className="bg-stone-600 flex flex-col gap-8 p-10">
                 <div className="flex flex-col lg:flex-row gap-4">
-                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-white rounded-3xl cursor-pointer flex justify-center" 
+                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-stone-600 rounded-3xl cursor-pointer flex justify-center presMeetic" 
                     onClick={(event) => {
                         setState('meetic')
                     }}>
@@ -38,7 +38,7 @@ export default function Projects ()
                         <div></div>
                         }
                     </div>
-                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-white rounded-3xl cursor-pointer flex justify-center"
+                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-stone-400 rounded-3xl cursor-pointer flex justify-center presTwitter"
                     onClick={(event) => {
                         setState('twitter')
                     }}>
@@ -46,7 +46,7 @@ export default function Projects ()
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-4">
-                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-white rounded-3xl cursor-pointer flex justify-center"
+                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-stone-200 rounded-3xl cursor-pointer flex justify-center presSpotify"
                     onClick={(event) => {
                         setState('spotify')
                     }}>
@@ -70,7 +70,7 @@ export default function Projects ()
                         <div></div>
                         }
                     </div>
-                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-white rounded-3xl cursor-pointer flex justify-center"
+                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-stone-800 rounded-3xl cursor-pointer flex justify-center presQuizz"
                     onClick={(event) => {
                         setState('quizz')
                     }}>

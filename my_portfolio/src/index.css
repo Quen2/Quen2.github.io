@@ -126,6 +126,30 @@ code {
 
 }
 
+.presTwitter
+{
+  background-image: url(./Assets/screenTwitter1.png);
+  background-size: cover;
+}
+
+.presMeetic
+{
+  background-image: url(./Assets/screenMeetic1.png);
+  background-size: cover;
+}
+
+.presSpotify
+{
+  background-image: url(./Assets/screenSpotify1.png);
+  background-size: cover;
+}
+
+.presQuizz
+{
+  background-image: url(./Assets/screenQuizz1.png);
+  background-size: cover;
+}
+
 .filt
 {
 
