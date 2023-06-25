@@ -29,12 +29,12 @@ export default function MainContent ()
 
     return (
         <div className="pt-10 bg-stone-400">
-            <h2 className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">A propos de moi</h2>
+            <h2 id="aboutMe" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">A propos de moi</h2>
             
 
                 <div className="flex flex-col elements p-10">
                     
-                <Carousel showThumbs={false} className="">
+                <Carousel showThumbs={false}>
 
 
                     <div className="flex flex-col lg:flex-row m-5 gap-4 ">
@@ -111,7 +111,7 @@ export default function MainContent ()
 
                             <div className="border md:border-none">
                                 <div className="flex gap-8 p-2 text-base lg:text-2xl text-stone-700 font-Indie text-center">
-                                    <p>Languages utilisés</p>
+                                    <p>Langages utilisés</p>
                                 </div>
                                 <div className="p-2 text-sm lg:text-lg mb-2 font-PlayFair">
                                     <p>HTML | CSS & SASS | JS | PHP</p>
