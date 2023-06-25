@@ -20,7 +20,7 @@ export default function Hobbies ()
                 <div className="border rounded-3xl flex-col p-4 card mx-4 lg:w-1/4"> 
                     <h2 className="text-center text-white font-Indie text-3xl">La musique</h2>
                     <p className="text-center text-white my-2 text-lg lg:text-xl font-PlayFair">Tous les genres</p>
-                    <p className="text-stone-200 font-PlayFair text-center">Passionné par cet univers, que ce soit dans mon travail ou chez moi, j'écoute constamment de la musique en tout genre. Passant par du rap Fr (Nekfeu, Jazzy Bazz) jusqu'à du Grunge (Nirvana) ou bien de la pop (Queen) et même du metal (Slipknot), je trouve que la musique est un lieu de relaxation, permettant une grande concentration dans n'importe quelle activité </p>
+                    <p className="text-stone-200 font-PlayFair text-center">Passionné par cet univers, que ce soit dans mon travail ou chez moi, j'écoute constamment de la musique en tout genre. Passant par du rap Fr (Nekfeu, Jazzy Bazz) jusqu'à du Grunge (Nirvana) ou bien de la rock (Queen) et même du metal (Slipknot), je trouve que la musique est un lieu de relaxation, permettant une grande concentration dans n'importe quelle activité </p>
                 </div> 
                 <div className="border rounded-3xl flex-col p-4 card mx-4 lg:w-1/4"> 
                     <h2 className="text-center text-white font-Indie text-3xl">Langue parlée</h2>
