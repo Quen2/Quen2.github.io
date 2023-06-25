@@ -22,8 +22,8 @@ export default function Meetic ()
             </div>
             <p className="text-white text-center font-PlayFair text-xl lg:text-2xl my-2">Objectif : Apprendre la structure MVC (Model View Controller) et l'utiliser sur un projet concret</p>
             <div className="flex flex-col lg:flex-row">
-                <img src={Meetic2} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenMeeticProject2"></img>
-                <img src={Meetic3} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenMeeticProject2"></img>
+                <img src={Meetic2} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-6" alt="screenMeeticProject2"></img>
+                <img src={Meetic3} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-6" alt="screenMeeticProject2"></img>
             </div>
         </div>
     )

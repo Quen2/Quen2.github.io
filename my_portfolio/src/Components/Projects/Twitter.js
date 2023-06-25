@@ -21,8 +21,8 @@ export default function Twitter ()
             </div>
             <p className="text-white text-center font-PlayFair text-xl lg:text-2xl my-2">Objectif : Premier gros projet à 4, s'organiser de façon efficace, garder un GitFlow ordonné tout en apprenant l'utiliastion de Tailwind</p>
             <div className="flex flex-col lg:flex-row">
-                <img src={Twitter2} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenTwitterProject2"></img>
-                <img src={Twitter3} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenTwitterProject2"></img>
+                <img src={Twitter2} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-6" alt="screenTwitterProject2"></img>
+                <img src={Twitter3} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-6" alt="screenTwitterProject2"></img>
             </div>
         </div>
     )

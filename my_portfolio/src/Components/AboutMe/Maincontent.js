@@ -30,7 +30,7 @@ export default function MainContent ()
 
     return (
         <Element name="aboutMe" className="pt-10 bg-stone-400">
-            <h2 id="aboutMe" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">A propos de moi</h2>
+            <h2 className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">A propos de moi</h2>
             
 
                 <div className="flex flex-col elements p-10">

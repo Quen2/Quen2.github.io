@@ -18,8 +18,8 @@ export default function Quizz ()
             </div>
             <p className="text-white text-center font-PlayFair text-xl lg:text-2xl my-2">Objectif : Apprendre l'utilisation de Symfony, par groupe de 3, le but était de voir comment gérer un framework en groupe,en se basant sur un site déjà existant : quizz.fr</p>
             <div className="flex flex-col lg:flex-row">
-                <img src={Quizz2} className="w-full h-full mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenQuizzProject2"></img>
-                <img src={Quizz3} className="w-full h-full mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenQuizzProject2"></img>
+                <img src={Quizz2} className="w-full h-full mx-auto lg:w-1/4 lg:h-1/4 my-6" alt="screenQuizzProject2"></img>
+                <img src={Quizz3} className="w-full h-full mx-auto lg:w-1/4 lg:h-1/4 my-6" alt="screenQuizzProject2"></img>
             </div>
         </div>
     )

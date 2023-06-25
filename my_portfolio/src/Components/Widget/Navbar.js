@@ -21,7 +21,7 @@ export default function Navbar ()
     }
 
     return (
-        <div className="bg-stone-400 text-white flex justify-around text-lg xl:text-2xl font-Indie absolute w-full">
+        <div className="bg-stone-400 text-white flex justify-around text-lg xl:text-2xl font-Indie w-full sticky top-0 opacity-50 z-10">
             <div className="hidden md:block border p-2 rounded-3xl overflow-hidden navBtn">
                 <Link to="aboutMe" smooth={true} duration={500}>
                     <p className="w-full h-full" content="A propos de moi">

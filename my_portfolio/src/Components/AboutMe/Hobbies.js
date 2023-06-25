@@ -5,7 +5,7 @@ export default function Hobbies ()
 {
     return (
         <Element name="contact" className="bg-stone-400">
-            <h2 id="aboutMe" className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">Mes activités</h2>
+            <h2 className="text-white text-center text-3xl font-PlayFair p-2 border w-fit mx-auto rounded-3xl mb-10">Mes activités</h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly gap-8">
                 <div className="border  rounded-3xl flex-col p-4 card mx-4 lg:w-1/4"> 
                     <h2 className="text-center text-white font-Indie text-3xl">Les jeux vidéos</h2>
