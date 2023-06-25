@@ -13,17 +13,17 @@ export default function CarouselHome ()
                 <div className="border rounded-xl h-full bgCar">
                     <img src={logoMe} alt="carouselImg" className="w-full h-full filt"></img>
                 </div>
-                <div className="legend">
-                    <h2>A propos de moi</h2>
-                </div>
+                <a href="#aboutMe" className="legend">
+                    A propos de moi
+                </a>
             </div>
             <div className="text-center w-3/4 lg:w-1/2 h-[45vh] mx-auto bg-stone-400 border relative rounded-xl opa">
                 <div className="border rounded-xl h-full bgCar">
                     <img src={logoComp} alt="carouselImg" className="w-full h-full filt"></img>
                 </div>
-                <div className="legend">
-                    <h2>Mes projets</h2>
-                </div>
+                <a href="#projects" className="legend">
+                    Mes projets
+                </a>
             </div>
             <div className="text-center w-3/4 lg:w-1/2 h-[45vh] mx-auto bg-stone-400 border relative rounded-xl opa">
                 <div className="border rounded-xl h-full bgCar">

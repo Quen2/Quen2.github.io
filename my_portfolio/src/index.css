@@ -216,6 +216,21 @@ code {
 
 }
 
+.card 
+{
+
+  background-color: initial;
+  transition: background-color 1s linear;
+
+}
+
+.card:hover 
+{
+
+  background-color: #57534e;
+
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

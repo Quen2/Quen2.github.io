@@ -19,7 +19,7 @@ export default function Twitter ()
                 <img src={php} className="w-10 h-10 lg:w-20 lg:h-20" alt="icon-PHP"></img>
                 <img src={tailwind} className="w-10 h-10 lg:w-20 lg:h-20" alt="icon-tailwind"></img>
             </div>
-            <p className="text-white text-center font-PlayFair text-xl lg:text-2xl my-2">But : Premier gros projet à 4, s'organiser de façon efficace, garder un GitFlow ordonné tout en apprenant l'utiliastion de Tailwind</p>
+            <p className="text-white text-center font-PlayFair text-xl lg:text-2xl my-2">Objectif : Premier gros projet à 4, s'organiser de façon efficace, garder un GitFlow ordonné tout en apprenant l'utiliastion de Tailwind</p>
             <div className="flex flex-col lg:flex-row">
                 <img src={Twitter2} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenTwitterProject2"></img>
                 <img src={Twitter3} className="w-3/4 h-3/4 mx-auto lg:w-1/4 lg:h-1/4 my-2" alt="screenTwitterProject2"></img>

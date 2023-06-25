@@ -46,7 +46,7 @@ export default function Projects ()
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-4">
-                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-stone-200 rounded-3xl cursor-pointer flex justify-center presSpotify"
+                    <div className="lg:w-1/4 border text-center text-lg lg:text-xl text-stone-300 rounded-3xl cursor-pointer flex justify-center presSpotify"
                     onClick={(event) => {
                         setState('spotify')
                     }}>
