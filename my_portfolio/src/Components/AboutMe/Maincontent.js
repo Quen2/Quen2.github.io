@@ -35,7 +35,7 @@ export default function MainContent ()
 
                 <div className="flex flex-col elements p-10">
                     
-                <Carousel showThumbs={false}>
+                <Carousel showThumbs={false} swipeable={true} emulateTouch={true}>
 
 
                     <div className="flex flex-col lg:flex-row m-5 gap-4 ">
