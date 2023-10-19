@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 import linkedin from "../../Assets/linkedin.svg"
 import github from "../../Assets/github.svg"
 import gmail from "../../Assets/gmail.svg"
-import Cv from "../../Assets/QuentinCv.pdf"
+import Cv from "../../Assets/CvQuentin.pdf"
 import { Link } from "react-scroll";
 
 export default function Catchphrase ()
